@@ -80,10 +80,22 @@ Understanding these differences is crucial for a Web2 full-stack developer trans
 
 - <b>Web3 Authentication</b>: There's no need for traditional authentication methods in Web3. Instead, users prove ownership of their accounts by signing transactions with their private key, which is mathematically linked to their public address. The ability to sign a transaction is proof of ownership, as only the holder of the private key can correctly sign messages for their public address, which is easily verifiable by anyone
 
-## Tasks
+## D. Tasks
+
+For task 1 and task 2, we will use Ethereum's Sepolia Testnet for deployment and tryout Etherscan's contract verification feature.
+
+The experience of deploying contract on another EVM Chain and verifying it will be mostly identical.
+
+Make sure you have sufficient Sepolia Testnet ETH for deployment purpose.
 
 ### Task 1: Deploy an ERC-20 Token with remix
 
+[Task 1 Link](./code/task-1-deploy-erc20-with-remix/README.md/)
+
 ### Task 2: Code a voting contract and deploy it with Hardhat
 
+[Task 2 Link](./code/task-2-deploy-voting-contract-with-hardhat/README.md)
+
 ### Task 3: Deploy your own UniswapV2 Fork
+
+[Task 3 Link](./code/task-3-deploy-backend-of-uniswap-v2-fork/README.md)
